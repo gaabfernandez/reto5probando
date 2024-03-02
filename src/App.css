@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.Appheader{
+    width: 100%;
+    height: 80px;
+    background-color: #8CB9BD;
+}
+
+.AppsectionSignIn{
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 140px);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.AppDivSignIn{
+display: flex;
+justify-content: center;
+align-items: center;
+
+    width: 250px;
+    height: 400px;
+    background-color: #FEFBF6;
+    border: solid 1px black;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+input{
+    padding: 6px;
+    width: 200px;
+    height: 20px;
+margin: 6px;
+border-radius: 6px;
+}
+button{
+  background-color: #8CB9BD;
+  width: 215px;
+    height: 33px;
+margin: 6px;
+border-radius: 6px;
+}
+.Appfooter{
+
+width: 100%;
+height: 60px;
+background-color: #B67352;
+
+}
+h1{
+  margin-bottom: 50px;
+  
+}
+h2{
+  margin-top: 50px;
+  text-decoration: underline
+}
